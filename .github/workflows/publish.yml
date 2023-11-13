@@ -15,6 +15,6 @@ jobs:
 
       - name: Build the hello-docker Docker image
         run: |
-              docker build . --tag ghcr.io/AaronLison/demo-ghcr:latest
-              docker run ghcr.io/AaronLison/demo-ghcr:latest
-              docker push ghcr.io/AaronLison/demo-ghcr:latest
+              docker build . --tag ghcr.io/aaronlison/demo-ghcr:latest
+              docker run ghcr.io/aaronlison/demo-ghcr:latest
+              docker push ghcr.io/aaronlison/demo-ghcr:latest
