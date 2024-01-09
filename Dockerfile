@@ -1,1 +1,1 @@
-FROM node:14-alpine
+FROM nginx:1.24.0-alpine-slim
