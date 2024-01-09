@@ -1,1 +1,1 @@
-FROM nginx:1.24.0-alpine-slim
+FROM centos:7
