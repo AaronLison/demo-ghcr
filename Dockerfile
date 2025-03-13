@@ -1,1 +1,4 @@
-FROM node:14.21.3
+FROM nginx:1.25.3
+COPY index.html /usr/share/nginx/html
+EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]
